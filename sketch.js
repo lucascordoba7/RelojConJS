@@ -24,7 +24,7 @@ function draw() {
   strokeWeight(15);
   
   //hours
-  stroke(55,150,255);
+  stroke(55,150,255,200);
   arc(0,0,600,600,0*3,ho);
   push();
   rotate(ho);
@@ -32,7 +32,7 @@ function draw() {
   pop();
   
    //minutes
-  stroke(255,50,255);
+  stroke(255,50,255,200);
   arc(0,0,550,550,0*3,min);
   push();
   rotate(min);
@@ -40,7 +40,7 @@ function draw() {
   pop();
   
   //seconds
-  stroke(50,255,100);
+  stroke(50,255,100,200);
   arc(0,0,500,500,0*3,sec);
   push();
   rotate(sec);
